@@ -1,0 +1,89 @@
+/*头部 开始*/
+body{
+	margin: 0!important;
+	padding: 0!important;
+}
+header{
+	width: 100%;
+	background: rgba(255,255,255,0.6);
+	position: fixed;
+	top: 0;
+	z-index: 999;
+}
+header section{
+	width: 1000px;
+	height: 84px;
+	margin: 0 auto;
+	padding-top: 15px;
+	box-sizing: border-box;
+}
+header section .logo{
+	float: left;
+	box-sizing: border-box;
+	width: 200px;
+	margin-right: 174px;
+	background: url(../images/logo.gif) no-repeat 0 1px;
+}
+header section .logo a{
+	display: block;
+	padding-left: 50px;
+	text-decoration: none;
+}
+header section .logo a p:nth-of-type(1){
+	height: 28px;
+	line-height: 28px;
+	font: 30px "隶书";
+	color: #1a1a1a;
+	margin: 0;
+}
+header section .logo a p:nth-of-type(2){
+	height: 20px;
+	line-height: 20px;
+	font-size: 14px;
+	color: #6e6e6d;
+	margin: 0;
+}
+header section nav{
+	float: left;
+}
+header section nav li{
+	float: left;
+	height: 54px;
+	line-height: 54px;
+	padding: 0 15px 0 15px;
+}
+header section nav li:nth-last-of-type{
+	padding-right: 0;
+}
+header section nav li a{
+	font: 16px "微软雅黑";
+	color: #1a1a1a;
+}
+header section nav li a:hover{
+	color: #b9282d;
+}
+/*头部 结束*/
+
+/*尾部 开始*/
+footer{
+	width: 100%;
+	background: #666666;
+}
+footer section{
+	width: 1000px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	margin: 0 auto;
+}
+footer section p{
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color: #FFFFFF;
+	text-align: center;
+}
+footer section p span{
+	margin: 0 16px 0 16px;
+}
+/*尾部 结束*/

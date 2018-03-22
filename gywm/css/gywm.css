@@ -1,0 +1,225 @@
+/*banner*/
+.banner{
+	width: 100%;
+	max-width: 1920px;
+	margin: 84px auto 0;
+	overflow: hidden;
+}
+.banner img{
+	margin-left: calc(50% - 960px);
+}
+
+/*企业介绍*/
+.introduce{
+	width: 100%;
+	background: #FFFFFF;
+	margin-bottom: 120px;
+}
+.introduce section{
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.introduce section h2{
+	height: 87px;
+	line-height: 87px;
+	font-size: 40px;
+	font-family: "微软雅黑";
+	color: #0d0d0d;
+	text-align: center;
+	position: relative;
+}
+.introduce section h2 span{
+	color: #ff0000;
+}
+.introduce section h2:before{
+	display: block;
+	content: '';
+	width: 200px;
+	height: 2px;
+	background: #0D0D0D;
+	position: absolute;
+	left: 157px;
+	top: calc(50% - 1px);
+}
+.introduce section h2:after{
+	display: block;
+	content: '';
+	width: 200px;
+	height: 2px;
+	background: #0D0D0D;
+	position: absolute;
+	right: 157px;
+	top: calc(50% - 1px);
+}
+.introduce section p{
+	line-height: 20px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #666666;
+	text-align: center;
+	padding: 0 80px 20px 80px;
+}
+.introduce ul{
+	width: 1000px;
+	margin: 27px auto 0;
+}
+.introduce ul li{
+	float: left;
+	width: 320px;
+	height: 320px;
+	margin-right: 20px;
+}
+.introduce ul li:nth-of-type(3){
+	margin-right: 0;
+}
+
+/*CEO档案*/
+.archives{
+	width: 100%;
+	background: #FFFFFF;
+}
+.archives section{
+	width: 824px;
+	margin: 0 auto;
+}
+.archives section h2{
+	height: 138px;
+	line-height: 138px;
+	font-size: 40px;
+	font-family: "微软雅黑";
+	color: #484848;
+	text-align: center;
+	position: relative;
+}
+.archives section h2 span{
+	color: #ff0000;
+}
+.archives section h2:before{
+	display: block;
+	content: '';
+	width: 200px;
+	height: 2px;
+	background: #0d0d0d;
+	position: absolute;
+	left: 69px;
+	top: calc(50% - 1px);
+}
+.archives section h2:after{
+	display: block;
+	content: '';
+	width: 200px;
+	height: 2px;
+	background: #0d0d0d;
+	position: absolute;
+	right: 69px;
+	top: calc(50% - 1px);
+}
+.archives section .content{
+	height: 863px;
+	padding-top: 93px;
+	background: url(../images/ims_15.jpg) no-repeat center 0;
+}
+.archives section ul{
+	float: left;
+	width: 412px;
+	box-sizing: border-box;
+}
+.archives section ul li{
+	height: 105px;
+}
+.archives section ul li h3{
+	height: 35px;
+	line-height: 35px;
+	font-size: 20px;
+	font-family: arial;
+	color: #0d0d0d;
+}
+.archives section ul li p{
+	height: 20px;
+	line-height: 20px;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	color: #666666;
+}
+.archives section .left{
+	padding-right: 41px;
+	text-align: right;
+}
+.archives section .right{
+	padding-left: 41px;
+}
+.archives section .right li:nth-of-type(6){
+	margin-bottom: 23px;
+}
+
+/*CEO寄语*/
+.message{
+	width: 100%;
+	background: #FFFFFF;
+	padding-top: 23px;
+}
+.message section{
+	width: 1034px;
+	margin: 0 auto;
+}
+.message section h2{
+	height: 92px;
+	line-height: 92px;
+	font-size: 40px;
+	font-family: "微软雅黑";
+	color: #0D0D0D;
+	text-align: center;
+	position: relative;
+}
+.message section h2 span{
+	color: #ff0000;
+}
+.message section h2:before{
+	display: block;
+	content: '';
+	width: 200px;
+	height: 2px;
+	background: #0D0D0D;
+	position: absolute;
+	left: 174px;
+	top: calc(50% - 1px);
+}
+.message section h2:after{
+	display: block;
+	content: '';
+	width: 200px;
+	height: 2px;
+	background: #0D0D0D;
+	position: absolute;
+	right: 174px;
+	top: calc(50% - 1px);
+}
+.message section .content .left{
+	float: left;
+	width: 380px;
+	height: 695px;
+	box-sizing: border-box;
+	padding-top: 16px;
+	margin-right: 14px;
+}
+.message section .content .right{
+	float: left;
+	width: 624px;
+	height: 640px;
+	box-sizing: border-box;
+	padding: 24px 27px;
+	border: 2px dashed #57c0ee;
+	border-radius: 8px;
+}
+.message section .content .right p{
+	line-height: 21px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #333333;
+	text-indent: 28px;
+}
+.message section .content .right p span{
+	font-size: 30px;
+	font-weight: bold;
+}

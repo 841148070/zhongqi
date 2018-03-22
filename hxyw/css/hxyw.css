@@ -1,0 +1,209 @@
+/*banner*/
+.banner{
+	width: 100%px;
+	margin-top: 84px;
+	overflow: hidden;
+}
+.banner img{
+	margin: 0 calc(50% - 960px);
+}
+
+/*我们的服务*/
+.serve{
+	width: 100%;
+	background: #FFFFFF;
+}
+.serve section{
+	width: 1000px;
+	margin: 0 auto;
+	padding-bottom: 44px;
+}
+.serve section h2{
+	height: 138px;
+	line-height: 138px;
+	font-size: 40px;
+	font-family: "微软雅黑";
+	color: #1a1a1a;
+	text-align: center;
+	position: relative;
+}
+.serve section h2:before{
+	display: block;
+	content: '';
+	width: 200px;
+	height: 2px;
+	background: #0d0d0d;
+	position: absolute;
+	left: 157px;
+	top: calc(50% - 1px);
+}
+.serve section h2:after{
+	display: block;
+	content: '';
+	width: 200px;
+	height: 2px;
+	background: #0d0d0d;
+	position: absolute;
+	right: 157px;
+	top: calc(50% - 1px);
+}
+.serve section h2 span{
+	color: #00b1ff;
+}
+.serve section ul:nth-of-type(1){
+	margin-bottom: 80px;
+}
+.serve section ul li{
+	float: left;
+	width: 250px;
+	height: 309px;
+	box-sizing: border-box;
+	padding: 0 35px;
+}
+.serve section ul li h3{
+	height: 44px;
+	line-height: 44px;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	color: #0d0d0d;
+	text-align: center;
+	padding-top: 6px;
+}
+.serve section ul li p{
+	height: 27px;
+	line-height: 27px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #b0b0b0;
+	text-align: center;
+}
+
+/*最好的网站*/
+.gwebsite{
+	width: 100%;
+	background: #e6e6e6;
+	overflow: hidden;
+}
+.gwebsite section{
+	width: 1000px;
+	height: 784px;
+	margin: 0 auto;
+	background: url(../images/ims_03.jpg) no-repeat 0 199px;
+}
+.gwebsite section h2{
+	height: 138px;
+	line-height: 138px;
+	font-size: 40px;
+	font-family: "微软雅黑";
+	color: #1a1a1a;
+	text-align: center;
+	position: relative;
+}
+.gwebsite section h2:before{
+	display: block;
+	content: '';
+	width: 200px;
+	height: 2px;
+	background: #0d0d0d;
+	position: absolute;
+	left: 157px;
+	top: calc(50% - 1px);
+}
+.gwebsite section h2:after{
+	display: block;
+	content: '';
+	width: 200px;
+	height: 2px;
+	background: #0d0d0d;
+	position: absolute;
+	right: 157px;
+	top: calc(50% - 1px);
+}
+.gwebsite section h2 span{
+	color: #00b1ff;
+}
+.gwebsite section ul{
+	box-sizing: border-box;
+	padding-left: 583px;
+	padding-top: 62px;
+}
+.gwebsite section ul li{
+	height: 58px;
+	line-height: 58px;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	color: #666666;
+	text-indent: 44px;
+	background: url(../images/ims_11.gif) no-repeat 0 center;
+}
+.gwebsite section ul li:nth-of-type(2){
+	margin-left: 97px;
+	margin-bottom: 25px;
+}
+.gwebsite section ul li:nth-of-type(3){
+	margin-left: 150px;
+	margin-bottom: 40px;
+}
+.gwebsite section ul li:nth-of-type(4){
+	margin-left: 167px;
+	margin-bottom: 29px;
+}
+.gwebsite section ul li:nth-of-type(5){
+	margin-left: 150px;
+	margin-bottom: 19px;
+}
+.gwebsite section ul li:nth-of-type(6){
+	margin-left: 97px;
+}
+
+/*售后服务*/
+.asale{
+	width: 100%px;
+	background: #FFFFFF;
+}
+.asale section{
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 95px;
+}
+.asale section h2{
+	width: 500px;
+	height: 75px;
+	line-height: 75px;
+	font-size: 40px;
+	color: #FFFFFF;
+	background: #00b1ff;
+	text-align: center;
+	margin: 0 auto;
+}
+.asale section ul{
+	width: 1000px;
+	height: 150px;
+	border: 2px solid #00B1FF;
+	box-sizing: border-box;
+	padding: 20px 0;
+}
+.asale section ul li{
+	float: left;
+	width: 293px;
+	height: 35px;
+	line-height: 35px;
+	box-sizing: border-box;
+	text-indent: 47px;
+	background: url(../images/ims_07.jpg) no-repeat 29px center;
+}
+.asale section ul li a{
+	font-size: 16px;
+	font-family: "微软雅黑";
+	color: #999999;
+}
+.asale section ul li:nth-of-type(1){
+	width: 410px;
+}
+.asale section ul li:nth-of-type(4){
+	width: 410px;
+}
+.asale section ul li:nth-of-type(7){
+	width: 410px;
+}

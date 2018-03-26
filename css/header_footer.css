@@ -32,7 +32,8 @@ header section .logo a{
 header section .logo a p:nth-of-type(1){
 	height: 30px;
 	line-height: 30px;
-	font: 30px "隶书";
+	font-size: 30px;
+	font-family: "隶书";
 	color: #1a1a1a;
 	margin: 0;
 }
